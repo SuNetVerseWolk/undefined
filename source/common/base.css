@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body, html {
+	min-height: 100dvh;
+}
+img {
+	object-fit: cover;
+}
+header,
+footer {
+	overflow: hidden;
+	user-select: none;
+}
+
+#profileIcon {
+	border-radius: 100%;
+	aspect-ratio: 1;
+}
+
+.learned {
+	color: #7c10e1;
+}
+.learning {
+	color: #8a2be2;
+}
+.gonna {
+	color: #9f56e3;
+}
+.learned,
+.learning,
+.gonna {
+	font-weight: 700;
+}

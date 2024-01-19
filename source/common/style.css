@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100dvh;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	gap: 5vw;
+
+	height: 10dvh;
+	padding: calc(10dvh / 6);
+	background-color: #131313;
+
+	> nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: clamp(10px, 7vw, 100px);
+	}
+}
+iframe {
+	width: 100%;
+	height: 80dvh;
+	background: #181818;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 5dvw;
+
+	height: 10dvh;
+	padding: calc(10dvh / 6);
+	background-color: #131313;
+}

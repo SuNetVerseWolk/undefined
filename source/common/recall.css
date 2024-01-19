@@ -1,0 +1,10 @@
+body {
+	display: grid;
+	place-items: center;
+	background: #181818;
+	
+	> h3 {
+		color: #333;
+		user-select: none;
+	}
+}
