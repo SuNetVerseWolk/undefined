@@ -11,7 +11,6 @@ img {
 header,
 footer {
 	overflow: hidden;
-	user-select: none;
 }
 
 #profileIcon {
